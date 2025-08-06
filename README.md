@@ -31,18 +31,12 @@ npm install
 1. Iniciar a API
 A API é simulada usando json-server. Ela roda com os seguintes endpoints:
 
-bash
-Copiar
-Editar
 npm run api
 Isso inicia a API localmente em http://0.0.0.0:3000.
 
 2. Iniciar o Frontend
 Em outro terminal, execute:
 
-bash
-Copiar
-Editar
 npm run dev
 O frontend estará disponível em http://localhost:5173.
 
