@@ -40,7 +40,7 @@ const Dashboard: React.FC = () => {
   useEffect(() => {
     if (accounts.length > 0) {
       const initialVisibility = accounts.reduce((acc, account) => {
-        acc[account.id] = true; // Começa visível
+        acc[account.id] = true;
         return acc;
       }, {} as Record<string, boolean>);
       setBalanceVisibility(initialVisibility);

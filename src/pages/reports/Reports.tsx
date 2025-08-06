@@ -24,7 +24,6 @@ const COLORS = ["#0088FE", "#FF8042", "#00C49F", "#FFBB28", "#AA336A"];
 const Reports: React.FC = () => {
   const userId = "user-1";
 
-  // Buscando as estatísticas do dashboard
   const { data: stats, isLoading: statsLoading } = useQuery({
     queryKey: ["dashboardStats", userId],
     queryFn: () => apiService.getDashboardStats(userId),
@@ -35,7 +34,6 @@ const Reports: React.FC = () => {
     queryFn: () => apiService.getTransactions(),
   });
 
-  // Estado para dados mensais e de categoria
   const [monthlyData, setMonthlyData] = useState<
     { month: string; income: number; expense: number }[]
   >([]);
