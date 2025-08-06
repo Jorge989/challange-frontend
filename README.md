@@ -44,9 +44,9 @@ O frontend estará disponível em http://localhost:5173.
 
 Para rodar os testes automatizados com Vitest, execute:
 
-```bash
 npm run test
 
+```
 🧾 Scripts Disponíveis
 json
 Copiar
