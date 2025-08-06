@@ -22,7 +22,7 @@ Aplicação desenvolvida para simular operações de um sistema bancário modern
 
 Clone o repositório e instale as dependências:
 
-```bash
+````bash
 git clone https://github.com/Jorge989/challange-frontend.git
 cd open-banking-app
 npm install
@@ -40,6 +40,13 @@ Em outro terminal, execute:
 npm run dev
 O frontend estará disponível em http://localhost:5173.
 
+3. Executar os testes
+
+Para rodar os testes automatizados com Vitest, execute:
+
+```bash
+npm run test
+
 🧾 Scripts Disponíveis
 json
 Copiar
@@ -51,4 +58,4 @@ Editar
   "api": "json-server --watch db.json --port 3000 --host 0.0.0.0"
 
   Feito por Jorge Attie
-```
+````
